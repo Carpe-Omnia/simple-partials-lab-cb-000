@@ -1,4 +1,4 @@
-class CreateClassroomStudents < ActiveRecord::Migration[5.0.7.1]
+class CreateClassroomStudents < ActiveRecord::Migration
   def change
     create_table :classroom_students do |t|
       t.integer :classroom_id
